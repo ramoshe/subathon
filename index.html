@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+
+    <title>RAMY Subathon</title>
+</head>
+<body>
+    <div class="meter">
+        <div class="title">
+            <span>Total</span>
+            <span class="total">0</span>
+        </div>
+        <span class="glass">
+            <span class="amount" style="height: 0%"></span>
+        </span>
+        <div class="bulb">
+            <span class="red-circle"></span>
+            <span class="filler"></span>
+        </div>
+    </div>
+    <div class="goals">
+        <span>250 - OF Stream</span>
+        <span>225 - Outfit Change</span>
+        <span>200 - Top Donor Snap Call</span>
+        <span>175 - Body Shots</span>
+        <span>175 - Outfit Change</span>
+        <span>125 - Pillow Fight</span>
+        <span>100 - Swing Dance</span>
+        <span>75 - Outfit Change</span>
+        <span>50 - Karaoke Duet</span>
+        <span>25 - Shots O'Clock</span>
+    </div>
+    <div class="rewards">
+        <span>Every 5 = Shots</span>
+        <span>10 = Double Bounce</span>
+        <span>20 = Smooches</span>
+    </div>
+    <div id="form">
+        <input type="text" id="donation-amount">
+        <input type="submit" id="add-donation" class="button" value="Add Donation" onclick="addDonation()">
+        <br />
+        <input type="button" id="add-1" class="button" value="1 Sub / $5" onclick="addSubs(1)">
+        <input type="button" id="add-2" class="button" value="2 Subs / $10" onclick="addSubs(2)">
+        <input type="button" id="add-3" class="button" value="3 Subs / $15" onclick="addSubs(3)">
+        <br />
+        <input type="button" id="add-5" class="button" value="5 Subs / $25" onclick="addSubs(5)">
+        <input type="button" id="add-10" class="button" value="10 Subs / $50" onclick="addSubs(10)">
+    </div>
+
+    <div class="ml-embedded" data-form="40xxz1"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>

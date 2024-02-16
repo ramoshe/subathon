@@ -1,0 +1,112 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #141414;
+  margin: 100px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.meter {
+  margin-left: 30px;
+  width: 100px;
+  margin-bottom: 100px;
+}
+.glass {
+  background: #e5e5e5;
+  border-radius: 100px 100px 0 0;
+  display: block;
+  height: 400px;
+  margin: 10px 35px 10px;
+  padding: 5px;
+  position: relative;
+  width: 20px;
+}
+.amount {
+  background: #f34e54;
+  border-radius: 100px;
+  display: block;
+  width: 20px;
+  position: absolute;
+    bottom: 5px;
+}
+.title span {
+  display: block;
+}
+.title {
+  text-align: center;
+  width: fit-content;
+  background: #e5e5e5;
+  padding: .7em 1.5em;
+  margin: 0 -20px 20px;
+  border-radius: 10px;
+}
+.total {
+  font-size: 30px;
+}
+
+.bulb {
+  background: #e5e5e5;
+  border-radius: 100px;
+  display: block;
+  height: 50px;
+  margin: 0 35px 10px;
+  padding: 5px;
+  position: relative;
+    top: -20px;
+    right: 15px;
+  width: 50px;
+}
+.red-circle {
+  background: #f34e54;
+  border-radius: 100px;
+  display: block;
+  height: 50px;
+  width: 50px;
+}
+.filler {
+  background: #f34e54;
+  border-radius: 100px 100px 0 0;
+  display: block;
+  height: 30px;
+  width: 20px;
+  position: relative;
+    top: -65px;
+    right: -15px;
+  z-index: 30;
+}
+
+.goals {
+  color: white;
+  margin-top: 110px;
+}
+.goals span {
+  display: block;
+  margin-bottom: .9em;
+}
+
+.rewards {
+  color: white;
+  margin-left: -220px;
+  margin-top: -20px;
+  border: 2px solid lightgray;
+  padding: 1em 1.5em;
+  height: fit-content;
+  text-align: center;
+}
+.rewards span {
+  display: block;
+}
+
+#form {
+  margin-left: auto;
+}
+#donation-amount {
+  font-size: 2em;
+  width: 3em;
+}
+.button {
+  font-size: 1em;
+  margin: 1em;
+  padding: .5em;
+  border-radius: 10px;
+}
