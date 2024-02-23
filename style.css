@@ -13,7 +13,7 @@ body {
   margin-bottom: 100px;
 }
 .glass {
-  background: #e5e5e5;
+  background: lightgray;
   border-radius: 100px 100px 0 0;
   display: block;
   height: 400px;
@@ -38,7 +38,7 @@ body {
   text-align: center;
   width: fit-content;
   min-width: 3.5em;
-  background: #e5e5e5;
+  background: lightgray;
   padding: .7em 1.5em;
   margin: 0 -35px 20px;
   border-radius: 10px 10px 0 10px;
@@ -48,7 +48,7 @@ body {
 }
 
 .bulb {
-  background: #e5e5e5;
+  background: lightgray;
   border-radius: 100px;
   display: block;
   height: 50px;
