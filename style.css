@@ -4,6 +4,7 @@ body {
   margin: 100px;
   display: flex;
   flex-wrap: wrap;
+  zoom: 125%;
 }
 
 .meter {
@@ -21,13 +22,14 @@ body {
   position: relative;
   width: 20px;
 }
+
 .amount {
-  background: #f34e54;
+  background: hotpink;
   border-radius: 100px;
   display: block;
   width: 20px;
   position: absolute;
-    bottom: 5px;
+    bottom: -5px;
 }
 .title span {
   display: block;
@@ -35,10 +37,11 @@ body {
 .title {
   text-align: center;
   width: fit-content;
+  min-width: 3.5em;
   background: #e5e5e5;
   padding: .7em 1.5em;
-  margin: 0 -20px 20px;
-  border-radius: 10px;
+  margin: 0 -35px 20px;
+  border-radius: 10px 10px 0 10px;
 }
 .total {
   font-size: 30px;
@@ -57,14 +60,14 @@ body {
   width: 50px;
 }
 .red-circle {
-  background: #f34e54;
+  background: hotpink;
   border-radius: 100px;
   display: block;
   height: 50px;
   width: 50px;
 }
 .filler {
-  background: #f34e54;
+  background: hotpink;
   border-radius: 100px 100px 0 0;
   display: block;
   height: 30px;
@@ -77,19 +80,33 @@ body {
 
 .goals {
   color: white;
-  margin-top: 110px;
+  margin-top: 105px;
+  margin-left: -55px;
+  display: flex;
+  flex-direction: column;
+  z-index: 10;
 }
 .goals span {
+  display: flex;
+  align-items: center;
+  margin-bottom: 17px;
+}
+.goals span::before {
+  content: "";
+  height: .15em;
+  width: 40px;
+  margin-right: 10px;
+  background-color: gray;
   display: block;
-  margin-bottom: .9em;
 }
 
 .rewards {
-  color: white;
-  margin-left: -220px;
-  margin-top: -20px;
-  border: 2px solid lightgray;
-  padding: 1em 1.5em;
+  color: hotpink;
+  margin-left: -170px;
+  margin-top: -15px;
+  border: 2px solid gray;
+  border-radius: 10px 0 10px 0;
+  padding: 1em;
   height: fit-content;
   text-align: center;
 }
@@ -106,7 +123,7 @@ body {
 }
 .button {
   font-size: 1em;
-  margin: 1em;
-  padding: .5em;
+  margin: .5em;
+  padding: .2em .5em;
   border-radius: 10px;
 }
