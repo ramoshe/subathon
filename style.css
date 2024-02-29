@@ -20,7 +20,6 @@ body {
   margin: 10px 35px 10px;
   margin-top: 30px;
   padding: 5px;
-  padding-top: 10px;
   position: relative;
   width: 20px;
 }
@@ -94,7 +93,7 @@ body {
 .goals span {
   display: flex;
   align-items: center;
-  margin-bottom: 19px;
+  margin-bottom: 1.18em;
 }
 .goals span::before {
   content: "";
@@ -131,4 +130,14 @@ body {
   margin: .5em;
   padding: .2em .5em;
   border-radius: 10px;
+}
+
+.github-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 4em;
+}
+.github-link a {
+  color: lightgray;
 }
