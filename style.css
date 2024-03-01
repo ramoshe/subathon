@@ -143,20 +143,26 @@ body {
 }
 
 .github-link {
+  color: gray;
+  font-size: .8em;
+  max-width: 200px;
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  align-items: center;
-  margin: 5em 0;
+  align-items: left;
+  margin: 5em auto 0;
 }
 .github-link a {
-  color: gray;
+  color: lightgray;
+}
+.github-link a:hover {
+  color: hotpink;
 }
 
 #streamer-selector {
   color: white;
   border: none;
   width: fit-content;
-  margin-bottom: 1em;
   border-radius: 10px;
 }
 #streamer-selector label:not(:last-of-type) {
