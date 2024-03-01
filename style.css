@@ -146,8 +146,34 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 4em;
+  margin: 5em 0;
 }
 .github-link a {
+  color: gray;
+}
+
+#streamer-selector {
+  color: white;
+  border: none;
+  width: fit-content;
+  margin-bottom: 1em;
+  border-radius: 10px;
+}
+#streamer-selector label:not(:last-of-type) {
+  margin-right: 2em;
+}
+#streamer-counts {
   color: lightgray;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid gray;
+  border-radius: 10px;
+  width: fit-content;
+  margin: 3em auto;
+  padding: 1em 3em;
+}
+#streamer-counts span {
+  color: hotpink;
 }
