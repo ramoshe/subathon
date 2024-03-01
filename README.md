@@ -1,5 +1,5 @@
 # Subathon Goal Meter
-A goal meter for the RAMY Subathon livestream event! Designed and built by theRamoShe as a highly customized and feature-added version of the CodePen created by [Tommy Creenan](https://codepen.io/TommyCreenan/pen/naxVYV)
+A goal meter for the RAMY Subathon livestream event! Designed and built by theRamoShe as a highly customized and feature-added version of [this CodePen](https://codepen.io/TommyCreenan/pen/naxVYV).
 
 ## Purpose
 It was designed for [AmyBabyZ](https://kick.com/amybabyz) and [theRamoShe](https://kick.com/theramoshe) streaming together, getting a little naughty, but it can easily be repurposed with a bit of code editing for anyone who wants a manually run meter because they are accepting donations on multiple platforms, and/or splitting profits between multiple streamers.
