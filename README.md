@@ -19,15 +19,15 @@ You can edit the code yourself if you're comfortable with HTML and CSS, or if yo
 The project consists of three simple files that need minimal adjustments to customize:
 
 1. `index.html` - change the goals and streamers
- - type in your sub goals for each level in the `<div class="goals">` (if you're changing the total goal from 250 subs, you'll have to add or remove goals as needed also)
- - put your rewards for 5, 10, and 20 subs in the `<div class="rewards">`
- - customize/add streamer names in the `<fieldset id="streamer-selector">` and the `<div id="streamer-counts">`.
+  - type in your sub goals for each level in the `<div class="goals">` (if you're changing the total goal from 250 subs, you'll have to add or remove goals as needed also)
+  - put your rewards for 5, 10, and 20 subs in the `<div class="rewards">`
+  - customize/add streamer names in the `<fieldset id="streamer-selector">` and the `<div id="streamer-counts">`.
 
 2. `script.js` - the only thing you'll need to adjust here is the `const goal` at the top if your goal isn't 250 subs
 
 3. `style.css` - this is where you might want to customize the most, but please be careful.
- - you can easily change the colors, there are basically 5 used—black, white, lightgray, gray, and hotpink—which can be substituted with other named colors or hex codes
- - **most important** if you adjust the goal from 250, you will need to adjust the `.goals span {margin-bottom: 1.18em}`. Change the value and test using the buttons until the lines match up with your entered amounts
+  - you can easily change the colors, there are basically 5 used—black, white, lightgray, gray, and hotpink—which can be substituted with other named colors or hex codes
+  - **most important** if you adjust the goal from 250, you will need to adjust the `.goals span {margin-bottom: 1.18em}`. Change the value and test using the buttons until the lines match up with your entered amounts
 
  **Important Note:** With the overall goal set here at 250 Subs, the most changes will need to be made to the code if you're changing that ultimate goal.
 
