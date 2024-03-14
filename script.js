@@ -77,12 +77,12 @@ function countWho(n) {
 
     if (amy.checked) {
         let count = parseInt(amyCount.innerHTML);
-        count = count + parseInt(n);
-        amyCount.innerHTML = count;
+        count = parseInt(count) + parseInt(n);
+        amyCount.innerHTML = parseInt(count);
     } else if (ramo.checked) {
         let count = parseInt(ramoCount.innerHTML);
-        count = count + parseInt(n);
-        ramoCount.innerHTML = count;
+        count = parseInt(count) + parseInt(n);
+        ramoCount.innerHTML = parseInt(count);
     }
 
     amy.checked = false;
