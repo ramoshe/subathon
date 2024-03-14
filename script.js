@@ -76,13 +76,13 @@ function countWho(n) {
     const ramoCount = document.getElementById("ramo-count");
 
     if (amy.checked) {
-        let count = parseInt(amyCount.innerHTML);
-        count = parseInt(count) + parseInt(n);
-        amyCount.innerHTML = parseInt(count);
+        let count = parseFloat(amyCount.innerHTML);
+        count = parseFloat(count) + parseFloat(n);
+        amyCount.innerHTML = parseFloat(count);
     } else if (ramo.checked) {
-        let count = parseInt(ramoCount.innerHTML);
-        count = parseInt(count) + parseInt(n);
-        ramoCount.innerHTML = parseInt(count);
+        let count = parseFloat(ramoCount.innerHTML);
+        count = parseFloat(count) + parseFloat(n);
+        ramoCount.innerHTML = parseFloat(count);
     }
 
     amy.checked = false;
