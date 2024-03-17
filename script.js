@@ -1,4 +1,4 @@
-const goal = 250;
+const goal = 150;
 
 function isNameSelected() {
     const amy = document.getElementById("amy");
