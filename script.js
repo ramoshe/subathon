@@ -20,7 +20,8 @@ function addDonation() {
         const total = document.querySelector(".total");
         const amount = document.querySelector(".amount");
 
-        const donation = document.querySelector("#donation-amount").value;
+        let donation = document.querySelector("#donation-amount").value;
+        donation = donation / 5;
 
         countWho(donation);
 
@@ -78,11 +79,11 @@ function countWho(n) {
     if (amy.checked) {
         let count = parseFloat(amyCount.innerHTML);
         count = parseFloat(count) + parseFloat(n);
-        amyCount.innerHTML = parseFloat(count);
+        amyCount.innerHTML = parseFloat(count).toFixed(1);
     } else if (ramo.checked) {
         let count = parseFloat(ramoCount.innerHTML);
         count = parseFloat(count) + parseFloat(n);
-        ramoCount.innerHTML = parseFloat(count);
+        ramoCount.innerHTML = parseFloat(count).toFixed(1);
     }
 
     amy.checked = false;
